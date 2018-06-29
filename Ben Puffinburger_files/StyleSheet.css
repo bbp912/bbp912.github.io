@@ -1,0 +1,188 @@
+﻿body, html 
+{
+    height: 50%;
+}
+
+.bg 
+{
+    background-image: url("notbutter.jpg");
+
+    height: 150%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 400px;
+    border: 10px solid #818479;
+}
+
+h1 
+{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #818479;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+h2 {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #42D7F4;
+    font-size: 32px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3 
+{
+    font-family: Arial;
+    text-align: center;
+    font-weight: normal;
+}
+
+.h33 {
+    font-size: 30px;
+    float: left;
+    margin-left: 150px;
+    color: #42D7F4;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.h34 {
+    font-size: 30px;
+    float: right;
+    margin-right: 150px;
+    color: #42D7F4;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+p
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stroke1
+{
+    color: #F2FF91;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+.stroke2 
+{
+    color: #42D7F4;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+.btn-group button 
+{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #42D7F4;
+    border: 3px solid #818479;
+    color: black;
+    padding: 24px 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.skillsBack {
+    background-color: #B5CBB7;
+}
+
+ul.left {
+    list-style-type: none;
+    margin: 0;
+    padding:  25px 25px 0 250px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #F2FF91;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+.pRight {
+    float: right;
+    margin: 0;
+    padding: 25px 25px 0 250px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #F2FF91;
+    text-shadow:
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+li{
+    padding: 15px;
+}
+
+.projBack {
+    background-color: #D2E4C4;
+}
+
+div.Proj {
+    background-color: #F2FF91;
+    width: 500px;
+    border: 25px solid #B5CBB7;
+    padding: 25px;
+    margin: 25px;
+    color: #42D7F4;
+    text-shadow: 
+        -1px -1px 0 #000, 
+        1px -1px 0 #000, 
+        -1px 1px 0 #000, 
+        1px 1px 0 #000;
+}
+
+img.resizeProj 
+{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
