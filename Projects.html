@@ -1,63 +1,57 @@
-<!DOCTYPE html>
-<!-- saved from url=(0036)http://localhost:57921/Projects.aspx -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./Projects_files/StyleSheet.css"><title>
-	Ben's Projects
-</title></head>
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <title>Ben's Projects</title>
+</head>
 <body class="projBack">
-    <form method="post" action="http://localhost:57921/Projects.aspx" id="form1">
-<div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="IVHywH5L4i2eJee74YsIj+gvdjk6CUvp+c4sihE85/dR9tKDt8jddBCLZagTdQ5MELUzntn1gT1cMEvYkUaQBF8BbkkkoJKHbMiTlLJsXRE=">
-</div>
-
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7065B718">
-</div>
+    <form id="form1" runat="server">
         <h1>Projects</h1>
         <div class="Proj" style="float:left">
             <p style="font-size: 24px">
-                Driver Program:<br>
+                Driver Program:<br />
             </p>
             <p style="font-size: 20px">
-                A class project modeled after the concept of Propel IT's truck driver rewards system.<br>
+                A class project modeled after the concept of Propel IT's truck driver rewards system.<br />
                 This project delt with HTML5, CSS, and SQL.
-            </p> 
-            
+            </p>
+
         </div>
-        <img src="./Projects_files/truck.jpg" class="resizeProj">
-        <br> <br><br> 
+        <img src="truck.jpg" class="resizeProj" />
+        <br /> <br /><br />
         <div class="Proj" style="float:right">
             <p style="font-size: 24px">
-                Book Exchange:<br>
+                Book Exchange:<br />
             </p>
             <p style="font-size: 20px">
-                A class project that delt with creating accounts and storing data on books for particular users.<br>
+                A class project that delt with creating accounts and storing data on books for particular users.<br />
                 This require me to use HTML5, CSS, SQL, and PHP.
             </p>
 
         </div>
-        <img src="./Projects_files/book.jpg" class="resizeProj" style="float:right">
-        <br> <br><br> <br><br> <br><br> <br><br><br><br><br><br>
+        <img src="book.jpg" class="resizeProj" style="float:right" />
+        <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /><br /><br />
         <div class="Proj" style="float:left">
             <p style="font-size: 24px">
-                Grocery Inventory System:<br>
+                Grocery Inventory System:<br />
             </p>
             <p style="font-size: 20px">
-                A Grocery system that displays what is in stock in the home pantry.<br>
-                It is a page that will communicate with a local database and can formulate grocery 
+                A Grocery system that displays what is in stock in the home pantry.<br />
+                It is a page that will communicate with a local database and can formulate grocery
                 lists to ensure that the user keeps everyhing in stock.
             </p>
 
         </div>
-        <img src="./Projects_files/grocery.jpg" class="resizeProj">
-        <br><br><br><br><br><br>
-        <br><br><br><br><br><br>
-                    <div class="btn-group" style="text-align:center">
-                        <button id="proj">Projects</button>
-                        <button id="email">Email</button>
-                        <button id="link">LinkedIn</button>
-                        <button id="skill">Skills</button>
-                    </div>
+        <img src="grocery.jpg" class="resizeProj" />
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <div class="btn-group" style="text-align:center">
+            <button id="proj">Projects</button>
+            <button id="email">Email</button>
+            <button id="link">LinkedIn</button>
+            <button id="skill">Skills</button>
+        </div>
         <script>
         document.getElementById("email").onclick = function () { emailFunction() };
 
@@ -86,8 +80,7 @@
         {
             window.open("Skills.html");
         }
-    </script>
+        </script>
     </form>
-
-
-</body></html>
+</body>
+</html>

@@ -1,31 +1,27 @@
-<!DOCTYPE html>
-<!-- saved from url=(0034)http://localhost:57921/Skills.aspx -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./Skills_files/StyleSheet.css"><title>
-	Ben's Skills
-</title></head>
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <title>Ben's Skills</title>
+</head>
 <body class="skillsBack">
-    <form method="post" action="http://localhost:57921/Skills.aspx" id="form1">
-<div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="oa2gPupgMPom2SeFtARSmdeFxb8VdLERc2vDniVl/d47cxAvGtO0HugaK+Ok8+Gz1lyrmUZ6sqyxygnnlZqs6lyh0FAE11pQA/qDR67cSUY=">
-</div>
-
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="54EBCB5A">
-</div>
+    <form id="form1" runat="server">
         <div>
 
             <h2>Skills</h2>
-           
+
             <h3 class="h33">Programming Languages</h3><h3 class="h34">Skills and Experience</h3>
-                                                
-            <br><br><br><br>
+
+            <br /><br /><br /><br />
         </div>
-        <div>                   
-            <ul class="left">               <p class="pRight">I have experience working with teams and by myself. <br><br>
-                                                      I have over 2 years of programming experience and <br><br>
-                                                      work as a primary software developer at a start up company.
-                                            </p>
+        <div>
+            <ul class="left">
+                <p class="pRight">
+                    I have experience working with teams and by myself. <br /><br />
+                    I have over 2 years of programming experience and <br /><br />
+                    work as a primary software developer at a start up company.
+                </p>
                 <li>Java</li>
                 <li>JavaScript</li>
                 <li>C++</li>
@@ -37,13 +33,13 @@
             </ul>
 
         </div>
-        <br><br><br><br><br><br>
-                    <div class="btn-group" style="text-align:center">
-                        <button id="proj">Projects</button>
-                        <button id="email">Email</button>
-                        <button id="link">LinkedIn</button>
-                        <button id="skill">Skills</button>
-                    </div>
+        <br /><br /><br /><br /><br /><br />
+        <div class="btn-group" style="text-align:center">
+            <button id="proj">Projects</button>
+            <button id="email">Email</button>
+            <button id="link">LinkedIn</button>
+            <button id="skill">Skills</button>
+        </div>
         <script>
         document.getElementById("email").onclick = function () { emailFunction() };
 
@@ -63,17 +59,16 @@
 
         function projFunction()
         {
-            window.open("Projects.aspx");
+            window.open("Projects.html");
         }
 
         document.getElementById("skill").onclick = function () { skillFunction() };
 
         function skillFunction()
         {
-            window.open("Skills.aspx");
+            window.open("Skills.html");
         }
-    </script>
+        </script>
     </form>
-
-
-</body></html>
+</body>
+</html>

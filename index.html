@@ -1,75 +1,63 @@
-<!DOCTYPE html>
-<!-- saved from url=(0033)http://localhost:57921/index.aspx -->
-<html xmlns="http://www.w3.org/1999/xhtml" class="bg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./index_files/StyleSheet.css"><title>
-	Ben Puffinburger
-</title></head>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="bg">
+<head runat="server">
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <title>Ben Puffinburger</title>
+</head>
 <body>
-    <form method="post" action="http://localhost:57921/index.aspx" id="form1">
-<div class="aspNetHidden">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="tetlYlx8b2M59ELKhn4aqm/JV+otHOucx9hneTwLltj7E4/0d7id9KHEwTq32b645lXJ6mCbrVH83F9eeZmu9NMWCqHP+Y9ZWLdiDg46U/A=">
-</div>
-
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987">
-</div>
+    <form id="form1" runat="server">
         <div>
             <div>
                 <h1>Ben Puffinburger </h1>
 
-                <p class="stroke1"> 
+                <p class="stroke1">
                     I am a software developer that enjoys making content for people.
-                    <br>
+                    <br />
                     I love learning about new software and delivering the next best thing!
-                </p> 
-                 <img src="./index_files/benSelfie.jpg" class="pic">
-                
-                <br><br><br><br><br>
-                <p class="stroke2">
-                    I attended Pittsburgh Technical College (PTC) for seven quarters 
-                    <br>to recieve my associates in computer programming.
-                    <br>I enjoy front-end and back end development.
                 </p>
-                <br><br><br><br><br><br>
-                    <div class="btn-group" style="text-align:center">
-                        <button id="proj">Projects</button>
-                        <button id="email">Email</button>
-                        <button id="link">LinkedIn</button>
-                        <button id="skill">Skills</button>
-                    </div>
+                <img src="benSelfie.jpg" class="pic" />
+
+                <br /><br /><br /><br /><br />
+                <p class="stroke2">
+                    I attended Pittsburgh Technical College (PTC) for seven quarters
+                    <br />to recieve my associates in computer programming.
+                    <br />I enjoy front-end and back end development.
+                </p>
+                <br /><br /><br /><br /><br /><br />
+                <div class="btn-group" style="text-align:center">
+                    <button id="proj">Projects</button>
+                    <button id="email">Email</button>
+                    <button id="link">LinkedIn</button>
+                    <button id="skill">Skills</button>
+                </div>
             </div>
         </div>
-        
+
     </form>
     <script>
         document.getElementById("email").onclick = function () { emailFunction() };
 
-        function emailFunction()
-        {
+        function emailFunction() {
             window.open('mailto:puffinburgerb912@gmail.com');
         }
 
         document.getElementById("link").onclick = function () { linkFunction() };
 
-        function linkFunction()
-        {
+        function linkFunction() {
             window.open("https://www.linkedin.com/in/benjamin-puffinburger-ab4061142");
         }
 
         document.getElementById("proj").onclick = function () { projFunction() };
 
-        function projFunction()
-        {
-            window.open("Projects.aspx");
+        function projFunction() {
+            window.open("Projects.html");
         }
 
         document.getElementById("skill").onclick = function () { skillFunction() };
 
-        function skillFunction()
-        {
-            window.open("Skills.aspx");
+        function skillFunction() {
+            window.open("Skills.html");
         }
     </script>
-
-
-</body></html>
+</body>
+</html>
